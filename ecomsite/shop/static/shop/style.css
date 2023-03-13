@@ -5,3 +5,58 @@
 .card-title{
     font-weight: 900;   
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color:#4ECCA3;
+    padding: 20px 50px;
+}
+.nav{
+    display: inline-block;
+    position: absolute;
+    top: 4%;
+    right:5%
+}
+.ul{
+    display: flex;
+    list-style: none;
+}
+.li{
+    padding: 0 15px;
+}
+.img{
+    width:150px;
+    height: 40px;
+}
+.a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+    padding: 0;
+    background-color: transparent !important;
+    border: none;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: none;
+}
+.page-link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    border: none;
+}
+.column{
+    padding-bottom:  25px;
+}

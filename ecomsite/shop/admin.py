@@ -17,7 +17,6 @@ class ProductAdmin(admin.ModelAdmin):
     list_display=('title','price','discount_price','category','description')
     search_fields = ('title',)
     actions=('change_category_to_default',)
-    fields=('title','price',)
     list_editable=('price','category',)
 
 
