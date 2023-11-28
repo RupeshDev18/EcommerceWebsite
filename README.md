@@ -8,8 +8,7 @@ SwiftCart is a user-friendly e-commerce platform designed to provide a seamless 
 - Usage
 - Features
 - Technologies Used
-- Contributing
-- License
+
 
 ## Installation
 
